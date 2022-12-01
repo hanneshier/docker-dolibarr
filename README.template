@@ -40,7 +40,7 @@ services:
             MYSQL_DATABASE: dolibarr
 
     web:
-        image: tuxgasy/dolibarr
+        image: hanneshier/dolibarr
         environment:
             DOLI_DB_HOST: mariadb
             DOLI_DB_USER: root

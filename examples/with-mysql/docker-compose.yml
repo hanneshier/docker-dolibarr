@@ -13,7 +13,7 @@ volumes:
 
 services:
   dolibarr:
-    image: tuxgasy/dolibarr:latest
+    image: hanneshier/dolibarr:latest
     environment:
       DOLI_DB_HOST: "mysql"
       DOLI_DB_HOST_PORT: "3306"

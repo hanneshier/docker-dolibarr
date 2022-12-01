@@ -13,7 +13,7 @@ volumes:
 
 services:
   dolibarr:
-    image: tuxgasy/dolibarr:latest
+    image: hanneshier/dolibarr:latest
     depends_on:
       - postgres
     environment:

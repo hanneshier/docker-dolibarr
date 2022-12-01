@@ -23,7 +23,7 @@ secrets:
 
 services:
   dolibarr:
-    image: tuxgasy/dolibarr:latest
+    image: hanneshier/dolibarr:latest
     secrets:
       - dolibarr-admin-user
       - dolibarr-admin-password
